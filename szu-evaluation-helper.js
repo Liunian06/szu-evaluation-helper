@@ -4,8 +4,8 @@
 // @version      10.1
 // @description  【UI修复】解决了因面板注入导致XPath失效的问题。采用尾部注入+双重数据读取策略，确保进度条准确显示。
 // @author       流年.
-// @match        https://jxpj.szu.edu.cn/education-jxcp-weixin-html/Student/Student2/index.html*
-// @match        https://jxpj.szu.edu.cn/education-jxcp-weixin-html/Student/Result2/Result.html*
+// @match        https://jxpj.szu.edu.cn/education-jxcp-weixin-html*/Student/Student2/index.html*
+// @match        https://jxpj.szu.edu.cn/education-jxcp-weixin-html*/Student/Result2/Result.html*
 // @grant        GM_addStyle
 // @run-at       document-start
 // @license      MIT
